@@ -159,6 +159,7 @@ The paths above are relative to the root of the file system. That is, the `dtb` 
 | `rk3588s-nanopi-r6c`                    | NanoPi R6C                    |
 | `rk3588s-nanopi-r6s`                    | NanoPi R6S                    |
 | `rk3588-hinlink-h88k`                   | H88K                          |
+| `rk3588-nanopc-cm3588-nas`              | NanoPC CM3588-NAS             |
 
 In the absence of a custom base DTB override, the overlays are applied on top of the firmware-provided DTB.
 
