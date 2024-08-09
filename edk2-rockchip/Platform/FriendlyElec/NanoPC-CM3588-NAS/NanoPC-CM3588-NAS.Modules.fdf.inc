@@ -6,13 +6,13 @@
 #
 ##
 
-# ACPI Support
-INF RuleOverride = ACPITABLE $(PLATFORM_DIRECTORY)/AcpiTables/AcpiTables.inf
+  # ACPI Support
+  INF RuleOverride = ACPITABLE $(PLATFORM_DIRECTORY)/AcpiTables/AcpiTables.inf
 
-# Device Tree Support
-FILE FREEFORM = gDtPlatformDefaultDtbFileGuid {
-SECTION RAW = Platform/Rockchip/DeviceTree/rk3588-nanopc-cm3588-nas.dtb
-}
+  # Device Tree Support
+  FILE FREEFORM = gDtPlatformDefaultDtbFileGuid {
+    SECTION RAW = Platform/Rockchip/DeviceTree/rk3588-nanopc-cm3588-nas.dtb
+  }
 
-# Splash screen logo
-INF $(VENDOR_DIRECTORY)/Drivers/LogoDxe/LogoDxe.inf
+  # Splash screen logo
+  INF $(VENDOR_DIRECTORY)/Drivers/LogoDxe/LogoDxe.inf
