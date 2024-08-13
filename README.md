@@ -20,6 +20,7 @@ This repository contains an UEFI firmware implementation based on EDK2 for vario
 - [FriendlyELEC NanoPC T6](https://wiki.friendlyelec.com/wiki/index.php/NanoPC-T6)
 - [FriendlyELEC NanoPi R6C](https://wiki.friendlyelec.com/wiki/index.php/NanoPi_R6C)
 - [FriendlyELEC NanoPi R6S](https://wiki.friendlyelec.com/wiki/index.php/NanoPi_R6S)
+- [FriendlyELEC CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588)
 - [Hinlink H88K](http://www.hinlink.com)
 
 # Supported OSes
